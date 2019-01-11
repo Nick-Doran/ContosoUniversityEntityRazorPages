@@ -9,7 +9,7 @@ namespace ContosoUniversity.Models
 {
     public class Course
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.None]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int CourseId { get; set; }
         public string Title { get; set; }
         public int Credits { get; set; }
